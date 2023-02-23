@@ -1,0 +1,64 @@
+[14-Jul-2022 17:04:49 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::scheme_state_bihar() in /home/gooddeed/public_html/shreeji/app/Http/Controllers/HomeController.php on line 89
+[14-Jul-2022 17:05:07 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::scheme_state_bihar() in /home/gooddeed/public_html/shreeji/app/Http/Controllers/HomeController.php on line 89
+[29-Jul-2022 12:36:59 Asia/Kolkata] PHP Fatal error:  Cannot use App\Http\Controllers\Admin\AuthController as AuthController because the name is already in use in /home4/searc9pv/advisorypark.com/routes/web.php on line 5
+[29-Jul-2022 12:38:53 Asia/Kolkata] PHP Fatal error:  Cannot use App\Http\Controllers\Admin\Auth\AuthController as AuthController because the name is already in use in /home4/searc9pv/advisorypark.com/routes/web.php on line 5
+[29-Jul-2022 12:41:34 Asia/Kolkata] PHP Fatal error:  Cannot use App\Http\Controllers\Admin\Auth\AuthController as AuthController because the name is already in use in /home4/searc9pv/advisorypark.com/routes/web.php on line 6
+[05-Aug-2022 18:57:11 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 44
+[08-Aug-2022 10:27:25 UTC] PHP Notice:  Constant LARAVEL_START already defined in /home/gooddeed/public_html/advisorypark/public/index.php on line 6
+[08-Aug-2022 10:27:26 UTC] PHP Notice:  Constant LARAVEL_START already defined in /home/gooddeed/public_html/advisorypark/public/index.php on line 6
+[08-Aug-2022 10:28:00 UTC] PHP Notice:  Constant LARAVEL_START already defined in /home/gooddeed/public_html/advisorypark/public/index.php on line 6
+[08-Aug-2022 10:59:13 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[08-Aug-2022 10:59:14 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[08-Aug-2022 10:59:32 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[08-Aug-2022 11:14:58 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[21-Nov-2022 19:34:09 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 1150
+[21-Nov-2022 19:37:23 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes) in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 1150
+[21-Nov-2022 19:37:40 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes) in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 1150
+[21-Nov-2022 19:37:52 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes) in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 1150
+[21-Nov-2022 19:38:00 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes) in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 1150
+[05-Dec-2022 10:34:41 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[13-Dec-2022 12:56:35 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[13-Dec-2022 12:57:05 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[09-Jan-2023 10:15:10 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[09-Jan-2023 10:15:43 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[09-Jan-2023 10:15:43 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[09-Jan-2023 10:17:57 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[09-Jan-2023 10:43:24 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[09-Jan-2023 10:46:37 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[09-Jan-2023 16:16:37 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Providers\EventServiceProvider::$listen in /home/gooddeed/public_html/advisorypark/app/Providers/EventServiceProvider.php on line 24
+[09-Jan-2023 16:16:44 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Providers\EventServiceProvider::$listen in /home/gooddeed/public_html/advisorypark/app/Providers/EventServiceProvider.php on line 24
+[09-Jan-2023 16:16:44 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Providers\EventServiceProvider::$listen in /home/gooddeed/public_html/advisorypark/app/Providers/EventServiceProvider.php on line 24
+[09-Jan-2023 10:47:19 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[09-Jan-2023 10:48:43 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[13-Jan-2023 17:04:26 Asia/Kolkata] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/RequirementController.php on line 54
+[17-Jan-2023 09:26:29 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 09:28:54 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 09:28:55 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 09:59:52 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_ENVIRONMENT’ - assumed '‘PAYTM_ENVIRONMENT’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 39
+[17-Jan-2023 09:59:52 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_MERCHANT_ID’ - assumed '‘PAYTM_MERCHANT_ID’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 40
+[17-Jan-2023 09:59:52 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_MERCHANT_KEY’ - assumed '‘PAYTM_MERCHANT_KEY’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 41
+[17-Jan-2023 09:59:52 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_MERCHANT_WEBSITE’ - assumed '‘PAYTM_MERCHANT_WEBSITE’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 42
+[17-Jan-2023 09:59:52 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_CHANNEL’ - assumed '‘PAYTM_CHANNEL’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 43
+[17-Jan-2023 09:59:52 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_INDUSTRY_TYPE’ - assumed '‘PAYTM_INDUSTRY_TYPE’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 44
+[17-Jan-2023 09:59:54 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_ENVIRONMENT’ - assumed '‘PAYTM_ENVIRONMENT’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 39
+[17-Jan-2023 09:59:54 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_MERCHANT_ID’ - assumed '‘PAYTM_MERCHANT_ID’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 40
+[17-Jan-2023 09:59:54 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_MERCHANT_KEY’ - assumed '‘PAYTM_MERCHANT_KEY’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 41
+[17-Jan-2023 09:59:54 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_MERCHANT_WEBSITE’ - assumed '‘PAYTM_MERCHANT_WEBSITE’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 42
+[17-Jan-2023 09:59:54 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_CHANNEL’ - assumed '‘PAYTM_CHANNEL’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 43
+[17-Jan-2023 09:59:54 UTC] PHP Warning:  Use of undefined constant ‘PAYTM_INDUSTRY_TYPE’ - assumed '‘PAYTM_INDUSTRY_TYPE’' (this will throw an Error in a future version of PHP) in /home/gooddeed/public_html/advisorypark/config/services.php on line 44
+[17-Jan-2023 10:01:06 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 10:01:12 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 10:04:32 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 10:12:23 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 10:18:43 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 10:56:48 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 11:00:58 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 11:00:59 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 11:05:31 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 11:05:57 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 11:06:00 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[17-Jan-2023 11:06:03 UTC] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[01-Feb-2023 17:37:02 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Field as Field because the name is already in use in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/AdvisoryController.php on line 6
+[20-Feb-2023 18:15:04 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Requirement as Requirement because the name is already in use in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 6
+[20-Feb-2023 18:15:04 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Requirement as Requirement because the name is already in use in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 6
+[20-Feb-2023 18:15:30 Asia/Kolkata] PHP Fatal error:  Cannot use App\Models\Requirement as Requirement because the name is already in use in /home/gooddeed/public_html/advisorypark/app/Http/Controllers/HomeController.php on line 6

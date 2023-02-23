@@ -1,0 +1,190 @@
+Array
+(
+    [type] => block_actions
+    [user] => Array
+        (
+            [id] => U04CGR0HH96
+            [username] => juniad.gooddeed
+            [name] => juniad.gooddeed
+            [team_id] => T04BLG6FTL6
+        )
+
+    [api_app_id] => A04BLGVA1RC
+    [token] => TugMOvnRQN20QzzNGJpSXksN
+    [container] => Array
+        (
+            [type] => message
+            [message_ts] => 1669104500.585649
+            [channel_id] => C04BVJ8CKK6
+            [is_ephemeral] => 
+        )
+
+    [trigger_id] => 4401610192726.4394550537686.91e13b7d06e32a81a3f07783303f9a54
+    [team] => Array
+        (
+            [id] => T04BLG6FTL6
+            [domain] => gooddeed-workspace
+        )
+
+    [enterprise] => 
+    [is_enterprise_install] => 
+    [channel] => Array
+        (
+            [id] => C04BVJ8CKK6
+            [name] => test-slack-notification
+        )
+
+    [message] => Array
+        (
+            [type] => message
+            [subtype] => bot_message
+            [text] => This content can't be displayed.
+            [ts] => 1669104500.585649
+            [bot_id] => B04BLK378VC
+            [blocks] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => header
+                            [block_id] => ZoUm
+                            [text] => Array
+                                (
+                                    [type] => plain_text
+                                    [text] => New Extention request
+                                    [emoji] => 1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => section
+                            [block_id] => nSZ7
+                            [text] => Array
+                                (
+                                    [type] => plain_text
+                                    [text] => John doe has request for following property reservation extenstion for 2 days
+                                    [emoji] => 1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [type] => section
+                            [block_id] => d2Wt
+                            [fields] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => mrkdwn
+                                            [text] => *Property Name:*
+XYZ property
+                                            [verbatim] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => mrkdwn
+                                            [text] => *Requested On:*
+21 nov 2022 11:00 AM
+                                            [verbatim] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [type] => section
+                            [block_id] => i=o1B
+                            [fields] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => mrkdwn
+                                            [text] => *Reason:*
+My client asked me he will buy this property in two days
+                                            [verbatim] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [type] => actions
+                            [block_id] => trzr
+                            [elements] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => button
+                                            [action_id] => l0Ua
+                                            [text] => Array
+                                                (
+                                                    [type] => plain_text
+                                                    [text] => Approve
+                                                    [emoji] => 1
+                                                )
+
+                                            [style] => primary
+                                            [value] => approved_222
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => button
+                                            [action_id] => 6DrEw
+                                            [text] => Array
+                                                (
+                                                    [type] => plain_text
+                                                    [text] => Decline
+                                                    [emoji] => 1
+                                                )
+
+                                            [style] => danger
+                                            [value] => declined_222
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [state] => Array
+        (
+            [values] => Array
+                (
+                )
+
+        )
+
+    [response_url] => https://hooks.slack.com/actions/T04BLG6FTL6/4408104363475/NnI11A08FkQ3xROeDEqgQTDk
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [action_id] => l0Ua
+                    [block_id] => trzr
+                    [text] => Array
+                        (
+                            [type] => plain_text
+                            [text] => Approve
+                            [emoji] => 1
+                        )
+
+                    [value] => approved_222
+                    [style] => primary
+                    [type] => button
+                    [action_ts] => 1669113307.772652
+                )
+
+        )
+
+)
