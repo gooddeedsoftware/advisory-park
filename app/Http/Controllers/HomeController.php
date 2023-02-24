@@ -13,7 +13,7 @@ use Illuminate\Support\Str;
 
 class HomeController extends Controller
 {
-    public function index() /*Home*/
+    public function index(Request $request) /*Home*/
     {   
        
         $config['field']        =   Field::where('status','1')->get();       
@@ -23,12 +23,20 @@ class HomeController extends Controller
     
         if(Auth::check()){
             // $posts           =   Post::with('users','comments')->where('created_by','!=',Auth::user()->id)->latest()->get();
-            $posts              =   Post::with('users','comments')->latest()->get();
+            $posts              =   Post::with('users','comments')->latest()->paginate(5);
+            if ($request->ajax()) {
+                $view = view('post-data',compact('posts'))->render();
+                return response()->json(['html'=>$view]);
+            }
             $business_profile   =   BusinessProfile::latest()->limit(5)->get();
             $listings           =   AdvisoryListing::where('id','!=',Auth::user()->id)->limit(5)->latest()->get();
             $requirements       =   Requirement::where('id','!=',Auth::user()->id)->limit(5)->latest()->get();
         }else{
-            $posts              =   Post::with('users','comments')->latest()->get();
+            $posts              =   Post::with('users','comments')->latest()->paginate(5);
+            if ($request->ajax()) {
+                $view = view('post-data',compact('posts'))->render();
+                return response()->json(['html'=>$view]);
+            }
             $business_profile   =   BusinessProfile::latest()->limit(5)->get();
             $listings           =   AdvisoryListing::limit(5)->latest()->get();
             $requirements       =   Requirement::limit(5)->latest()->get();

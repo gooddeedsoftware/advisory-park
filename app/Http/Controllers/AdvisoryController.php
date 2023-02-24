@@ -66,10 +66,20 @@ class AdvisoryController extends Controller
            
             if(Auth::check()){    
                 $field             = Field::whereStatus(1)->get();
-                $advisory_listings = AdvisoryListing::orderby('id','desc')->where('added_by','!=',Auth::user()->id)->get();
+                $advisory_listings = AdvisoryListing::orderby('id','desc')->where('added_by','!=',Auth::user()->id)->paginate(5);
+
+                if ($request->ajax()) {
+            		$view = view('advisory-data',compact('advisory_listings'))->render();
+                    return response()->json(['html'=>$view]);
+                }
             }else{      
                 $field             = Field::whereStatus(1)->get();
-                $advisory_listings = AdvisoryListing::orderby('id','desc')->get();
+                $advisory_listings = AdvisoryListing::orderby('id','desc')->paginate(5);
+
+                if ($request->ajax()) {
+            		$view = view('advisory-data',compact('advisory_listings'))->render();
+                    return response()->json(['html'=>$view]);
+                }
             }
         }
        
