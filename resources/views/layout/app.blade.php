@@ -99,7 +99,7 @@
 
 <body>
         
-	<div class="wrapper" style="height:1300px">
+	<div class="wrapper" >  <!-- style="height:1300px" -->
 	        <div class="se-pre-con spinner mt-5">
 				<div class="bounce1"></div>
 				<div class="bounce2"></div>
@@ -186,7 +186,7 @@
 					    @csrf
 						<div class="row">
 							<div class="col-lg-6">
-                                <label>Title </label>
+                  <label>Title </label>
                                 
 								<input type="hidden" name="id" id="id_r" required>
 								
@@ -219,7 +219,7 @@
 							<div class="col-lg-12">
 							    <label>Your waiting period to get the advisor's response? </label>
 								<div class="inp-field">
-									<select class="" name="responding_time" required>
+									<select class="form-control" name="responding_time" required>
 								
 										<option value="" >Select</option>
 										<option value="24 Hr" >24 Hr</option>

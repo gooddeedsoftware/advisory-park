@@ -17,18 +17,17 @@ class RequirementController extends Controller
         if(isset($request->field)){
             if(Auth::check()){
                 $field        = Field::whereStatus(1)->get();
-                $requirements = Requirement::where('skill', $request->get('field'))->where('created_by','!=',Auth::user()->id)->get();
+                $req = Requirement::where('skill', $request->get('field'))->where('created_by','!=',Auth::user()->id)->get();
             }else{
                 $field        = Field::whereStatus(1)->get();
-                $requirements = Requirement::where('skill', $request->get('field'))->get();
+                $req = Requirement::where('skill', $request->get('field'))->get();
             }
         }elseif(isset($request->search)){
                 $search = $request->search;
             if(Auth::check()){ 
                 $field        = Field::whereStatus(1)->get();
                 
-                
-                $requirements = Requirement::where(function($query) use ($search){
+                $req = Requirement::where(function($query) use ($search){
                                       
                                         $query->where('title', 'like', '%' . $search . '%')
                                               ->orWhere('description', 'like', '%' . $search . '%')
@@ -37,7 +36,7 @@ class RequirementController extends Controller
                                         ->where('created_by','!=',Auth::user()->id)->get();
             }else{
                 $field        = Field::whereStatus(1)->get();
-                $requirements = Requirement::where(function($query) use ($search){
+                $req = Requirement::where(function($query) use ($search){
                                         $query->where('title', 'like', '%' . $search . '%')
                                               ->orWhere('description', 'like', '%' . $search . '%')
                                               ->orWhere('skill', 'like', '%' . $search . '%');
@@ -47,13 +46,26 @@ class RequirementController extends Controller
         }else{
             if(Auth::check()){    
                 $field        = Field::whereStatus(1)->get();
-                $requirements = Requirement::latest()->where('created_by','!=',Auth::user()->id)->get();
+                $req = Requirement::latest()->where('created_by','!=',Auth::user()->id)->paginate(4);
+
+                if ($request->ajax()) {
+            		$view = view('requirement-data',compact('req'))->render();
+                    return response()->json(['html'=>$view]);
+                }
+
             }else{      
                 $field        = Field::whereStatus(1)->get();
-                $requirements = Requirement::latest()->get();
+                $req = Requirement::latest()->paginate(4);
+
+                if ($request->ajax()) {
+                    $view = view('requirement-data',compact('req'))->render();
+                    return response()->json(['html'=>$view]);
+                }
             }
+         
+    	
         }
-        return view('requirements',compact('field','requirements','config'));
+        return view('requirements',compact('field','req','config'));
         
     }
     
